@@ -1,0 +1,70 @@
+*{margin: 0; padding: 0;}
+
+@font-face {
+  font-family: "trip";
+  src: url(/font/THE유럽여행.ttf);
+}
+body{
+  background-color: white;
+}
+header{
+  font-family: "trip";
+  color: orange;
+  font-size: 20px;
+  margin-bottom: 20px; padding: 20px; border: 1px;
+}
+nav{
+  margin-top: 10px; margin-bottom: 10px;
+}
+nav ul{
+  list-style: none;
+  border-top: 2px solid skyblue;
+  border-bottom: 2px solid skyblue;
+  text-align: center;
+}
+nav ul li{
+  font-family: "trip";
+  font-size: 20px;
+  display: inline;
+  margin-left: 2em;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: orange;
+  line-height: 3em;
+  text-transform: uppercase;
+}
+nav ul li a:hover{
+  text-decoration: none;
+}
+section#호스텔{
+font-family: "trip";
+font-size: 25px;
+margin-top: 35px;
+margin-bottom: 20px; margin-left: 50px; 
+padding: 20px;width: 53%; float: left;
+border: 2px solid orange; border-radius: 10px;
+width: 400px; height: 600px;
+border-radius: 2%;
+}
+section#애월더선셋{
+font-family: "trip";
+font-size: 25px;
+margin-top: 35px;
+margin-bottom: 20px; margin-left: 100px; 
+padding: 20px;width: 53%; float: left;
+border: 2px solid orange; border-radius: 10px;
+width: 400px; height: 600px;
+border-radius: 2%;
+}
+section#리치호텔{
+  font-family: "trip";
+  font-size: 25px;
+  margin-top: 35px;
+  margin-bottom: 20px; margin-left: 100px; 
+  padding: 20px; width: 53%; float: left;
+  border: 2px solid orange; border-radius: 10px;
+  width: 400px; height: 600px;
+  border-radius: 2%;
+  }

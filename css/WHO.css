@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "trip";
+  src: url(/font/THE유럽여행.ttf);
+}
+header{
+  font-family: trip;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-top: 2px solid red;
+  border-bottom: 2px solid red;
+}
+nav{
+  font-family: trip;
+  font-size: 20px;
+}
+
+img{
+  border-radius: 40%;
+}
